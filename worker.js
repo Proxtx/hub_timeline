@@ -3,7 +3,7 @@
 
   while (true) {
     try {
-      lastEventTime = performUpdate(lastEventTime);
+      lastEventTime = await performUpdate(lastEventTime);
     } catch (e) {
       console.log(e);
     }
